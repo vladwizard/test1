@@ -7,13 +7,14 @@
   align-items: center;
   justify-content: center;
   .bar {
+
     width: 16px;
     height: 340px;
     background: linear-gradient(0deg, #444cfc 18%, rgba(0, 0, 0, 0) 18%),
       linear-gradient(0deg, #ffd3af 75%, #ffa155 75%);
 
     position: absolute;
-    transform: translate(-100%,0);
+    transform: translate(-100%, 0);
   }
   > main {
     position: relative;
