@@ -1,0 +1,43 @@
+.Careers {
+  position: relative;
+  height: 552px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  > .texts {
+    max-width: 704px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px;
+    margin: auto;
+    > * {
+      margin: 0;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .shape {
+    position: absolute;
+    right: 0;
+  }
+  .inscription {
+    user-select: none;
+    background: url(./Image2.png);
+    height: 200px;
+
+    margin: 0;
+
+    > * {
+      text-align: center;
+      line-height: 200px;
+      font-size: calc(15px + 245 * var(--width-mult));
+      @media screen and (min-width: 1920px) {
+        font-size: 260px;
+      }
+      font-weight: 800;
+      background-color: white;
+      mix-blend-mode: screen;
+    }
+  }
+}

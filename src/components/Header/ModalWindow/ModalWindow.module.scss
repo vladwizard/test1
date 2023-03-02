@@ -1,0 +1,61 @@
+.ModalWindow {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 914px;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 100;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  color: #232536;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+  --padding: calc(128 * var(--width-mult));
+  padding: var(--padding);
+
+  > * {
+    margin: 0;
+  }
+  > h2 {
+    margin-bottom: 24px;
+  }
+  > p {
+    opacity: 0.87;
+    margin-bottom: 68px;
+  }
+
+  .exitButton {
+    position: absolute;
+    right: 52px;
+    top: 52px;
+    height: 40px;
+    width: 40px;
+    background: #2d2934;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 56px;
+    section {
+      border-bottom: 1px solid rgba(35, 37, 54, 0.2);
+      max-width: 405px;
+      width: 100%;
+      > * {
+        margin: 0;
+        margin-bottom: 8px;
+      }
+      > p {
+        opacity: 0.6;
+      }
+      > input {
+        border: none;
+        outline: none;
+      }
+    }
+  }
+}

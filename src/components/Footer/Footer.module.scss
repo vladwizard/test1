@@ -1,0 +1,18 @@
+.Footer {
+  height: 80px;
+  background: #ffe6d2;
+  padding: 0 var(--common-padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  > * {
+    display: flex;
+  }
+  .logos {
+    gap: calc(94 * var(--width-mult));
+    align-items: end;
+  }
+  .links {
+    gap: calc(27 * var(--width-mult));
+  }
+}

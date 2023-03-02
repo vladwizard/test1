@@ -1,0 +1,44 @@
+.Header {
+  user-select: none;
+  height: 80px;
+  background: var(--primary);
+  padding: 0 var(--common-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+  .logo {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  > div {
+    display: flex;
+    gap: 0 calc(32 * var(--width-mult));
+    align-items: center;
+    select {
+      padding: 3px 6px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      &:not(.select) {
+        opacity: 0.6;
+      }
+    }
+
+    .modalButton {
+      cursor: pointer;
+      color: #ffd3af;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+}

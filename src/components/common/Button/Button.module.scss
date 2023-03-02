@@ -1,0 +1,18 @@
+.Button {
+  height: 64px;
+  width: 219px;
+  background: #444cfc;
+
+  > div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+  }
+  a {
+    color: #ffffff;
+    opacity: 0.87;
+  }
+}
