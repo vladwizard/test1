@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./ModalWindow.module.scss";
-import Button from "../../common/Button/Button";
+import Button from "../common/Button/Button";
 import Cross from "./Cross";
 
 const sections = [

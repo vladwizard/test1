@@ -3,19 +3,19 @@ import styles from "./Patner.module.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import image from './Image3.png'
 const persons = [
   {
     text: "Finsweet has been a wonderful partner to work with. I have been a customer now for the past few months now and I have had nothing but positive experiences!",
     name: "Johnny Andro",
     title: "Director, Company",
-    image: "/images/image3.png",
+    image: image,
   },
   {
     text: "Finsweet has been a wonderful partner to work with. I have been a customer now for the past few months now and I have had nothing but positive experiences!",
     name: "Johnny Andro",
     title: "Director, Company",
-    image: "/images/image3.png",
+    image: image,
   },
   { text: "der4h45", name: "", title: "", image: "" },
 ];

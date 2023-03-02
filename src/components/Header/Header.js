@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Arrow from "../../svgs/Arrow";
-import ModalWindow from "./ModalWindow/ModalWindow";
+import ModalWindow from "../ModalWindow/ModalWindow";
 import styles from "./Header.module.scss";
 
 const links = [
